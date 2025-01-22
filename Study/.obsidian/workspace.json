@@ -20,24 +20,23 @@
               "icon": "lucide-file",
               "title": "Welcome"
             }
-          }
-        ]
-      },
-      {
-        "id": "4aa9a870cdd84bbb",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "7e83c70ede33ab99",
+            "id": "b0dc7fc35c908231",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "C++.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "C++"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "7c1935ce74c282e8",
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Welcome의 백링크"
+              "title": "C++의 백링크"
             }
           },
           {
@@ -128,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Welcome의 나가는 링크"
+              "title": "C++의 나가는 링크"
             }
           },
           {
@@ -155,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "C++.md"
               },
               "icon": "lucide-list",
-              "title": "Welcome 개요"
+              "title": "C++ 개요"
             }
           }
         ]
@@ -170,6 +169,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -178,8 +178,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "872eb57894271d42",
+  "active": "b0dc7fc35c908231",
   "lastOpenFiles": [
+    "C.md",
+    "C++.md",
+    "DataSheet/Sensor/Encoder",
+    "DataSheet/Sensor",
+    "BLDC FOC Driver.md",
+    "DataSheet",
+    "2025-01-22.md",
+    "Excalidraw/Drawing 2025-01-22 10.47.36.excalidraw.md",
+    "Excalidraw",
+    "DataSheet/Sensor/Encoder/Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN.pdf",
     "Welcome.md"
   ]
 }
