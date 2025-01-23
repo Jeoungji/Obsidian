@@ -8,21 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "872eb57894271d42",
+            "id": "b0dc7fc35c908231",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "C++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "C++"
             }
           },
           {
-            "id": "b0dc7fc35c908231",
+            "id": "cde8dfcd929ea2de",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7c1935ce74c282e8",
@@ -178,18 +179,22 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b0dc7fc35c908231",
+  "active": "cde8dfcd929ea2de",
   "lastOpenFiles": [
     "C.md",
+    "Excalidraw/Drawing 2025-01-23 15.59.12.excalidraw.md",
     "C++.md",
+    "Excalidraw/Drawing 2025-01-23 15.44.35.excalidraw.md",
+    "BLDC FOC Driver.md",
+    "Excalidraw/Drawing 2025-01-23 09.40.45.excalidraw.md",
+    "Excalidraw/Drawing 2025-01-22 10.47.36.excalidraw.md",
+    "캡슐화.md",
+    "Welcome.md",
     "DataSheet/Sensor/Encoder",
     "DataSheet/Sensor",
-    "BLDC FOC Driver.md",
     "DataSheet",
     "2025-01-22.md",
-    "Excalidraw/Drawing 2025-01-22 10.47.36.excalidraw.md",
     "Excalidraw",
-    "DataSheet/Sensor/Encoder/Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN.pdf",
-    "Welcome.md"
+    "DataSheet/Sensor/Encoder/Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN.pdf"
   ]
 }
