@@ -4,25 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "2438477bed0c1642",
+        "id": "4917aa809dec6bda",
         "type": "tabs",
         "children": [
           {
-            "id": "b0dc7fc35c908231",
+            "id": "a6b37804a6168174",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++.md",
+                "file": "BLDC_Project/BLDC FOC Driver.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++"
+              "title": "BLDC FOC Driver"
             }
           },
           {
-            "id": "cde8dfcd929ea2de",
+            "id": "54ae0687ebb9425a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,13 +179,25 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "cde8dfcd929ea2de",
+  "active": "54ae0687ebb9425a",
   "lastOpenFiles": [
-    "C.md",
-    "Excalidraw/Drawing 2025-01-23 15.59.12.excalidraw.md",
+    "BLDC_Project/BLDC FOC Driver.md",
     "C++.md",
+    "Excalidraw/Drawing 2025-01-23 15.59.12.excalidraw.md",
+    "DataSheet/Sensor/Encoder/Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN.pdf",
+    "BLDC_Project/Image/Pasted image 20250124091407.png",
+    "BLDC_Project/Image/Pasted image 20250124091509.png",
+    "BLDC_Project/Image/Pasted image 20250124091603.png",
+    "BLDC_Project/Image",
+    "BLDC_Project",
+    "BLDC_Project/Image/Pasted image 20250124092537.png",
+    "BLDC_Project/Image/Pasted image 20250124092507.png",
+    "BLDC_Project/Image/Pasted image 20250124092001.png",
+    "BLDC_Project/Image/Pasted image 20250124091903.png",
+    "BLDC_Project/Image/Pasted image 20250124091726.png",
+    "BLDC_Project/Image/Pasted image 20250124091645.png",
+    "C.md",
     "Excalidraw/Drawing 2025-01-23 15.44.35.excalidraw.md",
-    "BLDC FOC Driver.md",
     "Excalidraw/Drawing 2025-01-23 09.40.45.excalidraw.md",
     "Excalidraw/Drawing 2025-01-22 10.47.36.excalidraw.md",
     "캡슐화.md",
@@ -194,7 +206,6 @@
     "DataSheet/Sensor",
     "DataSheet",
     "2025-01-22.md",
-    "Excalidraw",
-    "DataSheet/Sensor/Encoder/Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN.pdf"
+    "Excalidraw"
   ]
 }
