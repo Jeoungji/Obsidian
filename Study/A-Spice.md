@@ -1,6 +1,6 @@
 #자동차 #차 #품질보증 
 
-<span style="font-size: 24px;">Automotive Software Process Improvement and Capability dEtermination</span>
+<span style="font-size: 30px;">Automotive Software Process Improvement and Capability dEtermination</span>
 
 - 자동차 산업에서 [소프트웨어](소프트웨어.md) 개발과 관련된 품질 보증 프로세스 관리 [국제 표준]
 - ISO/IEC 15504 [SPICE](SPICE.md)
