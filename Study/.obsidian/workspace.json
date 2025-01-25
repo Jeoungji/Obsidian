@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/캡슐화.md",
+                "file": "A-Spice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "캡슐화"
+              "title": "A-Spice"
             }
           }
         ],
@@ -182,6 +182,11 @@
   "active": "54ae0687ebb9425a",
   "lastOpenFiles": [
     "Language/C++.md",
+    "Language/C.md",
+    "Language/상속성.md",
+    "Language/캡슐화.md",
+    "Language/은닉성.md",
+    "Language/다형성.md",
     "BLDC_Project/BLDC FOC Driver.md",
     "DataSheet/Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN.pdf.md",
     "BLDC_Project/Image/PCB_3D_Top.png",
@@ -194,10 +199,6 @@
     "BLDC_Project/Image/PCB_Layer1.png",
     "A-Spice.md",
     "Welcome.md",
-    "Language/다형성.md",
-    "Language/캡슐화.md",
-    "Language/C.md",
-    "Language/은닉성.md",
     "무제 파일.md",
     "Language",
     "Excalidraw/Drawing 2025-01-23 15.59.12.excalidraw.md",
