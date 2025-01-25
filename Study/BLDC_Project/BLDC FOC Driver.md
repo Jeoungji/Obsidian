@@ -13,7 +13,7 @@
 
 # 하드웨어
 ### 2D
-![PCB_Top](BLDC_Project/Image/PCB_Top.png)
+![PCB_Top](Image/PCB_Top.png)
 
 ![[PCB_Top.png]]
 ![[PCB_Buttom.png]]
