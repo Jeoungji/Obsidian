@@ -2,7 +2,6 @@
 
 #Embedded #넥스원_The_SSEN_Embbed_School 
 
-
 ---
 # Standard IO
 #### 제어 문자
