@@ -1,6 +1,6 @@
 #자동차 #차 #품질보증 
 
-<span style="font-size: 30px;">Automotive Software Process Improvement and Capability dEtermination</span>
+<span style="font-size: 28px;">Automotive Software Process Improvement and Capability dEtermination</span>
 
 - 자동차 산업에서 [소프트웨어](소프트웨어.md) 개발과 관련된 품질 보증 프로세스 관리 [국제 표준]
 - ISO/IEC 15504 [SPICE](SPICE.md)
@@ -14,3 +14,31 @@
 	소프트웨어 개발에서 발생 가능한 리스크 최소화
 - 품질 보증
 	 소프트웨어 개발의 각 단계에서 품질을 보증하고, 결함을 사전 탐지
+
+### A-SPICE 구조
+프로세스 모델로 구성되며 프로세스는 성과 지표와 능력 수준에 따라 평가
+- 프로세스 정의 및 관리
+	개발과 관련된 각 단계와 프로세스를 정의하고, 이를 관리하는 프로세스
+- 소프트웨어 요구 사항 관리
+	요구 사항을 정의하고 추적
+- 설계 및 구현
+	소프트웨어 아키텍처와 구현을 포함한 개발
+- 검증 및 테스트
+	 개발한 시스템이 요구 사항을 만족하는지 검증
+- 품질 보증
+	프로세스와 제품의 품질을 보증하기 위한 활동
+
+### A-SPICE 수준
+프로세스의 성숙도를 6개의 수준으로 정의하고 소프트웨어 개발 과정에서의 능력과 성과를 평가하는 지표
+- Level 0 : Incomplete
+	 프로세스가 정의되지 않거나, 수행되지 않음
+- Level 1 : Performed
+	프로세스가 수행되지만, 수행이 일관되지 않거나 비효율적
+- Level 2 : Managed
+	프로세스가 관리되고 있으며, 일부 품질 관리 활동이 수행
+- Level 3 : Established
+	프로세스가 정의되고, 표준화 되어 있으며 일관성 있게 수행
+- Level 4 : Predictable
+	프로세스가 관리되고 있으며, 데이터 기반으로 예측이 가능하고 지속적으로 개선
+- Level 5 : Optimizing
+	프로세스가 지속적으로 개선되고 있으며, 최적화 됨
