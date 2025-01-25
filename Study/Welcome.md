@@ -1,5 +1,40 @@
-This is your new *vault*.
 
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
+사용 방법
 
-When you're ready, delete this note and make the vault your own.
+# 헤딩 1
+## 헤딩 2
+### 헤딩 3
+#### 헤딩 4
+##### 헤딩 5
+###### 헤딩 6
+
+
+1. 일 번
+2. 이 번
+3. 삼 번
+
+- 하나
+- 둘
+- 셋
+
+---
+___
+
+**강조하고 싶은 내용**
+
+`코드 블록`
+
+```
+코드 내용
+```
+
+> 문단 들여쓰기
+
+#카테고리 
+
+
+| 이름  | 나이  |
+| --- | --- |
+| 홍길동 | 17  |
+| 김철수 | 24  |
+

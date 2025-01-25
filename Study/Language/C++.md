@@ -87,16 +87,7 @@ private(default) : class 밖에서 안보임
 2. 객체 사이의 관계를 명시 : 상속, 포함
 
 [[캡슐화]] 객체는 객체 한 개를 담을 수 있게 설계
-```
-class Member {
-	string name;
-	string tel;
-	string addr;
-public:
-	void inputData(string n, string t, string a);
-	void printData(void);
-}
-```
+
 
 ### 함수
 ##### 함수 Default Value
@@ -285,142 +276,12 @@ int main() {
 - static 멤버 함수에서 일반 멤버 변수 사용/호출 불가(static은 가능)
 - static 멤버 함수는 멤버 변수가 없는 순수 기능 제공 class에 활용
 
-#### 캡슐화
-- 객체의 정보를 하나로 묶어줌
-
-#### 다형성
-- 동일한 코드가 실행 방법에 따라 다르게 동작
-##### 함수 오버로딩
-- 상속 받은 멤버 함수를 하위 class에 적합하게 재정의
-##### 함수 오버라이딩
-- 이름이 동일한 함수 여러 개 정의 가능
-	C에서는 변수와 함수의 이름이 같으면 Error
-```cpp folder title:function_overloading
-// 이름이 같으면 매게변수로 구분
-// parameter의 개수 or type
-int add(int, int);
-int add(int, int, int);
-char * add(char*, char*);
-float add(float, float);
-```
-
-##### 업 캐스팅
-- 상속 관계에서 부모 타입 포인터에 자식 객체의 주소를 할당
-- 재 정의된 멤버 함수 호출 시 포인터의 타입을 따라감
-- 멤버 변수나 멤버 함수는 타입에 정의된 것만 사용 가능
-##### 다운 캐스팅
-- 업 캐스팅 된 포인터를 원래 타입으로 내리는 것
-- casting 연산자가 필요
-```cpp folder title:up_casting_&&_down_casting
-using namespace std;
-
-class Point {
-protected:
-	int x;
-	int y;
-public:
-	Point() : x(0), y(0) {}
-	Point(int x, int y) : x(x), y(y) {}
-	void printPoint() {
-		cout << " x: " << x << " y: " << y << endl;
-	}
-	int getX() {
-		return x;
-	}
-};
-class Point3D :public Point {
-	int z;
-public:
-	Point3D() :z(0) {}
-	Point3D(int x, int y, int z) :Point(x, y), z(z) { }
-
-	void printPoint() { // 함수 재정의
-		Point::printPoint();
-		cout << " z: " << z << endl;
-	}
-	int getZ() {
-		return z;
-	}
-};
-
-int main() {
-	// 객체로 재정의한 함수 호출시 선언된 타입을 따라감
-	// 정적 호출
-	Point p2(4, 5);
-	p2.printPoint(); // Point::printPoint()
-
-	Point3D p(1, 2, 3);
-	p.printPoint(); // Point3D::printPoint()
-	cout << "pp.x: " << p.getX() << endl;
-	cout << "pp.z: " << p.getZ() << endl;
-
-	// 업캐스팅 : 포인터 타입을 따라감 상속 관계에서만 가능
-	// 부모 클래스에 정의된 멤버만 사용 가능
-	Point* pp = &p;
-	
-	pp->printPoint(); // Point::printPoint()
-	cout << "pp.x: " << pp->getX() << endl;
-	//cout << "pp.z: " << pp->getZ() << endl; // Point class에는 없는 메소드
-	Point3D *k = (Point3D *)pp;
-	cout << "((Point3D *)pp).z: " << ((Point3D *)pp)->getZ() << endl;
-
-
-	Point3D* ppp = &p; // 다운 캐스팅 : 포인터 타입을 따라감 상속 관계에서만 가능
-	ppp->printPoint(); // Point3D::printPoint()
-	cout << "pp.x: " << ppp->getX() << endl;
-	cout << "pp.z: " << ppp->getZ() << endl;
-	
-
-	return 0;
-}
-```
-
-##### 가상 함수
-- 함수 정의 앞에 virtual 키워드 붙임
-- 함수 호출 시 동적 맵핑
-- 정적 호출은 타입을 따라가지만 동적 호출은 몸체의 타입을 따라감
-```cpp folder title:virtual_function
-class Car {
-public:
-	void horn() {
-		cout << "빵빵" << endl;
-	}
-};
-class Ambulance : public Car {
-	void horn() {
-		cout << "엠뷸런스 위급함" << endl;
-	}
-};
-class FirCar : public Car {
-	void horn() {
-		cout << "소방차 화재" << endl;
-	}
-};
-class PoliceCar : public Car {
-	void horn() {
-		cout << "너 나와" << endl;
-	}
-};
-
-int main() {
-	Car *arr[] = {new Car(), new Ambulance(), new FireCar(), new PoliceCar() };
-	for (int i= 0; i < 4; ++i) {
-		arr[i]->horn();
-	}
-	for (int i= 0; i < 4; ++i) {
-		delete arr[i];
-	}
-	return 0;
-}
-
-```
-- virtual 함수는 가상 함수 테이블을 만들어서 관리
 
 
 
-#### 정보의 은닉성
-- 외부에서 class의 멤버 변수의 접근을 막음
-- 멤버 함수를 통해 멤버 변수에 접근
+
+
+
 
 #### const 멤버 함수
 - 함수 내에서 멤버 변수 값 변경을 막음

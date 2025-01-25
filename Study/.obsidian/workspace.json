@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++.md",
+                "file": "BLDC_Project/BLDC FOC Driver.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++"
+              "title": "BLDC FOC Driver"
             }
           }
         ],
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7c1935ce74c282e8",
@@ -170,38 +169,43 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "54ae0687ebb9425a",
   "lastOpenFiles": [
+    "BLDC_Project/Image/PCB_3D_Top.png",
+    "BLDC_Project/Image/PCB_Buttom.png",
+    "BLDC_Project/Image/PCB_Top.png",
+    "BLDC_Project/Image/PCB_Layer4.png",
+    "BLDC_Project/Image/PCB_Layer3.png",
+    "BLDC_Project/Image/PCB_Layer2.png",
+    "BLDC_Project/Image/PCB_Layer1.png",
+    "BLDC_Project/Image/PCB_Layer1.png",
+    "A-Spice.md",
+    "Welcome.md",
+    "Language/C++.md",
+    "Language/다형성.md",
+    "Language/캡슐화.md",
+    "Language/C.md",
+    "Language/은닉성.md",
+    "무제 파일.md",
+    "Language",
     "BLDC_Project/BLDC FOC Driver.md",
-    "C++.md",
     "Excalidraw/Drawing 2025-01-23 15.59.12.excalidraw.md",
     "DataSheet/Sensor/Encoder/Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN.pdf",
-    "BLDC_Project/Image/Pasted image 20250124091407.png",
-    "BLDC_Project/Image/Pasted image 20250124091509.png",
-    "BLDC_Project/Image/Pasted image 20250124091603.png",
     "BLDC_Project/Image",
     "BLDC_Project",
-    "BLDC_Project/Image/Pasted image 20250124092537.png",
-    "BLDC_Project/Image/Pasted image 20250124092507.png",
-    "BLDC_Project/Image/Pasted image 20250124092001.png",
-    "BLDC_Project/Image/Pasted image 20250124091903.png",
-    "BLDC_Project/Image/Pasted image 20250124091726.png",
-    "BLDC_Project/Image/Pasted image 20250124091645.png",
-    "C.md",
+    "BLDC_Project/Image/PCB_3D_Buttom.png",
     "Excalidraw/Drawing 2025-01-23 15.44.35.excalidraw.md",
     "Excalidraw/Drawing 2025-01-23 09.40.45.excalidraw.md",
     "Excalidraw/Drawing 2025-01-22 10.47.36.excalidraw.md",
-    "캡슐화.md",
-    "Welcome.md",
     "DataSheet/Sensor/Encoder",
     "DataSheet/Sensor",
     "DataSheet",

@@ -13,23 +13,23 @@
 
 # 하드웨어
 ### 2D
-![[Pasted image 20250124091903.png]]
-![[Pasted image 20250124092001.png]]
+![[BLDC_Project/Image/PCB_Top.png]]
+![[PCB_Buttom.png]]
 
-![[Pasted image 20250124092507.png]]
-![[Pasted image 20250124092537.png]]
+![[PCB_3D_Top.png]]
+![[PCB_3D_Buttom.png]]
 
 
 
 ### Layer
 
-![[Pasted image 20250124091509.png]] 
+![[PCB_Layer1.png]] 
 
-![[Pasted image 20250124091603.png]]
+![[PCB_Layer2.png]]
 
-![[Pasted image 20250124091645.png]]
+![[PCB_Layer3.png]]
 
-![[Pasted image 20250124091726.png]]
+![[PCB_Layer4.png]]
 
 
 
