@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Scoppy_Hardware/Scoppy.md",
+                "file": "STM32/MCU.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scoppy"
+              "title": "MCU"
             }
           },
           {
@@ -32,6 +32,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -104,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Scoppy_Hardware/Scoppy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Scoppy의 백링크"
+              "title": "백링크"
             }
           },
           {
@@ -175,8 +175,17 @@
       "markdown-importer:마크다운 형식 가져오기 열기": false
     }
   },
-  "active": "afc2e504225ca7d7",
+  "active": "09301459b195802b",
   "lastOpenFiles": [
+    "CAN.md",
+    "STM32/MCU.md",
+    "ROS/ROS2.md",
+    "Car/CDD.md",
+    "STM32",
+    "Communication",
+    "ROS",
+    "Car/ISO-26262.md",
+    "Project/Scoppy_Hardware/Scoppy.md",
     "Project/BLDC_Project/BLDC FOC Driver.md",
     "Language/C++.md",
     "Language/캡슐화.md",
@@ -185,12 +194,10 @@
     "Car/A-SPICE.md",
     "Car/ECU.md",
     "Car/BSW.md",
-    "Car/ISO-26262.md",
     "Car/ASIL.md",
     "Car/HARA.md",
     "Welcome.md",
     "소프트웨어.md",
-    "Project/Scoppy_Hardware/Scoppy.md",
     "Car",
     "Project/Scoppy_Hardware/Image/c2d24560-d956-44f7-ab82-f0728f82ca43",
     "Project/Scoppy_Hardware/Image/3cbd7e4c-59ea-415a-87ec-bc20ae97aaa8",
@@ -198,9 +205,6 @@
     "Project/Scoppy_Hardware/Image/bc4d4bb1-9e5c-47a1-9f1d-09a9dcba2fab",
     "Project/Scoppy_Hardware/Image/381152a0-cc3e-4719-85dc-48e2b0e61e2b",
     "Project/Scoppy_Hardware/Image/aec94ca9-0a18-490d-8ec6-a45ef867c550",
-    "Project/Scoppy_Hardware/Image/5a4ef8cf-5b94-4c9c-86c8-0ea5e02bfce0",
-    "Project/Scoppy_Hardware/Image/10fa8736-0a12-4434-986c-785ee057580d",
-    "Project/Scoppy_Hardware/Image/40202085-4331-4e48-84b0-a67660ab669a",
     "Project/Scoppy_Hardware/Image/Assamble_R.jpg",
     "Project/Scoppy_Hardware/Image/Soldering_2.jpg",
     "Project/Scoppy_Hardware/Image/Soldering_1.jpg",
@@ -218,10 +222,6 @@
     "BLDC_Project/BLDC FOC Driver.md",
     "Language/구조체.md",
     "Language/상속성.md",
-    "Language/은닉성.md",
-    "Language/다형성.md",
-    "DataSheet/Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN.pdf.md",
-    "무제 파일.md",
-    "Excalidraw/Drawing 2025-01-23 15.59.12.excalidraw.md"
+    "Language/은닉성.md"
   ]
 }
