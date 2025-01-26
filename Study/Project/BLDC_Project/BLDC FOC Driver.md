@@ -1,4 +1,4 @@
-
+#Embedded #motor #inverter #PCB #C
 # 데이터 시트
 #### STM32G474CBT6
 [[MCU]]
