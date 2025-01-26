@@ -1,6 +1,6 @@
 
 
-#Embedded #넥스원_The_SSEN_Embbed_School 
+#Embedded  #소프트웨어
 
 ---
 # Standard IO
