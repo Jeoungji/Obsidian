@@ -32,7 +32,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -64,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#소프트웨어",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -172,15 +170,16 @@
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "markdown-importer:마크다운 형식 가져오기 열기": false
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "70301b59c00f8d34",
+  "active": "afc2e504225ca7d7",
   "lastOpenFiles": [
+    "Project",
     "Language/C++.md",
     "Language/C.md",
-    "BLDC_Project/BLDC FOC Driver.md",
+    "Project/BLDC_Project/BLDC FOC Driver.md",
     "A-SPICE.md",
     "소프트웨어.md",
     "Language/구조체.md",
@@ -190,27 +189,27 @@
     "Language/은닉성.md",
     "Language/다형성.md",
     "DataSheet/Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN.pdf.md",
-    "BLDC_Project/Image/PCB_3D_Top.png",
-    "BLDC_Project/Image/PCB_Buttom.png",
-    "BLDC_Project/Image/PCB_Top.png",
-    "BLDC_Project/Image/PCB_Layer4.png",
-    "BLDC_Project/Image/PCB_Layer3.png",
-    "BLDC_Project/Image/PCB_Layer2.png",
-    "BLDC_Project/Image/PCB_Layer1.png",
-    "BLDC_Project/Image/PCB_Layer1.png",
+    "Project/BLDC_Project/Image/PCB_3D_Top.png",
+    "Project/BLDC_Project/Image/PCB_Buttom.png",
+    "Project/BLDC_Project/Image/PCB_Top.png",
+    "Project/BLDC_Project/Image/PCB_Layer4.png",
+    "Project/BLDC_Project/Image/PCB_Layer3.png",
+    "Project/BLDC_Project/Image/PCB_Layer2.png",
+    "Project/BLDC_Project/Image/PCB_Layer1.png",
+    "Project/BLDC_Project/Image/PCB_Layer1.png",
     "무제 파일.md",
     "Language",
     "Excalidraw/Drawing 2025-01-23 15.59.12.excalidraw.md",
-    "DataSheet/Sensor/Encoder/Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN.pdf",
-    "BLDC_Project/Image",
-    "BLDC_Project",
-    "BLDC_Project/Image/PCB_3D_Buttom.png",
+    "Project/DataSheet/Sensor/Encoder/Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN.pdf",
+    "Project/BLDC_Project/Image",
+    "Project/BLDC_Project",
+    "Project/BLDC_Project/Image/PCB_3D_Buttom.png",
     "Excalidraw/Drawing 2025-01-23 15.44.35.excalidraw.md",
     "Excalidraw/Drawing 2025-01-23 09.40.45.excalidraw.md",
     "Excalidraw/Drawing 2025-01-22 10.47.36.excalidraw.md",
-    "DataSheet/Sensor/Encoder",
-    "DataSheet/Sensor",
-    "DataSheet",
+    "Project/DataSheet/Sensor/Encoder",
+    "Project/DataSheet/Sensor",
+    "Project/DataSheet",
     "2025-01-22.md",
     "Excalidraw"
   ]
