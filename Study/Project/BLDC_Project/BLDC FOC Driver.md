@@ -10,9 +10,9 @@
 
 # 하드웨어
 
-| PCB_Top                             | PCB_Buttom                                |
-| ----------------------------------- | ----------------------------------------- |
-| ![PCB_Top](PCB_Top.png)       | ![PCB_Buttom](PCB_Buttom.png)       |
+| PCB_Top                       | PCB_Buttom                          |
+| ----------------------------- | ----------------------------------- |
+| ![PCB_Top](Image/PCB_Top.png) | ![PCB_Buttom](PCB_Buttom.png)       |
 | ![PCB_3D_Top](PCB_3D_Top.png) | ![PCB_3D_Buttom](PCB_3D_Buttom.png) |
 
 | Layer1                              | Layer2                              |
