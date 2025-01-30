@@ -4,7 +4,7 @@
     - 1988년 : BMW 8시리즈에 첫 탑재
     - 1980년 : 2.0으로 업데이트
 
-| Topology | Speed                                       | 거리    |        |                               |                       |                   |         |
+| Topology | Speed ([Baud_Rate](Baud_Rate.md))           | 거리    |        |                               |                       |                   |         |
 | -------- | ------------------------------------------- | ----- | ------ | ----------------------------- | --------------------- | ----------------- | ------- |
 | #Bus     | ≤5Mbps (High Speed)<br>≤125Kbps (Low Speed) | 중-장거리 | #비동기통신 | [Half-Duplex](Half-Duplex.md) | 이벤트 구동 방식             | [OSI](OSI.md) 1 & | #차동신호전송 |
 |          | High Speed CAN과 Low Speed CAN사이에는 Gateway필요 |       |        |                               | [CSMA/CA](CSMA/CA.md) |                   |         |

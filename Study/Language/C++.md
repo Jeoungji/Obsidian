@@ -11,15 +11,11 @@
 |                                 | 같은 사물이어도 사용 목적에 따라 모델링 구조가 달라짐                             |
 |                                 | [은닉성](은닉성.md), [다형성](다형성.md), [상속성](상속성.md), [캡슐화](캡슐화.md) |
 
-[C](C.md)/[C++](C++) 컴파일 -> 실행파일 .exe -> 실행 -> start up code(초기화 코드)
-.text : 코드, 상수, RO
-.data : 초기화 한 전역변수, static 변수, RW
-.bss : 초기화 안한 전역변수, static 변수, 자동으로 0으로 초기화, RW
-.heap : 포인터로만 접근
-.stack : 함수 사용 메모리, 지역변수 저장
+#### namespace
+- 이름 충돌을 막기 위함
+- `using namespace <>` : 이름 영역 안에서 `<>::`(범위 지정 연산자)를 하지 않아도 됨
+- 다른 이름 공간의 같은 이름 함수면 범위 지정자를 써야 함
 
-start up code
-- 실행 파일을 램에 올림
 #### call by reference (참조 변수)
 - C++의 call by value : deep copy, 주소값 복사해서 넘기기
 - C++에서 deep copy, 기존 pointer는 call by value
@@ -43,65 +39,15 @@ int main() {
 	mem.score = 10;
 }
 ```
-#### namespace
-- 이름 충돌을 막기 위함
-- `using namespace <>` : 이름 영역 안에서 `<>::`(범위 지정 연산자)를 하지 않아도 됨
-- 다른 이름 공간의 같은 이름 함수면 범위 지정자를 써야 함
 
-#### main
-- main의 return은 부모 프로세서가 자식 프로세서의 정상 종료 확인
 
-#### class
+# Class
 public : 접근 제어자, 함수(일반적으로)
 private(default) : class 밖에서 안보임
 `.`   : 멤버 직접 접근 연산자
 `->` : 멤버 간접 접근 연산자
 
-#### 객체 의미
-1. 설계 : 모델링에서 도출되는 샘플
-   1. 요구 분석
-   2. 기능 정리
-   3. 발생 가능한 상황 분석 및 대처 방안 분석
-   ex) ATM
-	   카드를 꼽는다
-	   패스워드 입력
-	   출금 금액 입력
-	   잔액 확인
-	   연결된 총장 돈 인출
-	   돈 출력
-	모델링에서 샘플 도출
-	- 카트 : 카드사, 번호, 비밀번호, 계좌
-	- 계좌 : 은행명, 계좌번호, 비밀번호
-	객체화
-	```
-	class Card {
-		// 멤버 변수 : 객체의 정보를 저장, 값은 언제나 변경 가능
-		// 멤버 함수(메서드) : 이 객체의 기능 제공
-	}
-	```
-2. 프로그램 개발시 : 클래스 타입의 변수
-
-[객체 지향 프로그램](객체 지향 프로그램.md)
-1. 객체를 정의 : 모델링에서 도출되는 샘플을 클래스로 정의
-2. 객체 사이의 관계를 명시 : 상속, 포함
-
-[캡슐화](캡슐화.md) 객체는 객체 한 개를 담을 수 있게 설계
-
-
-### 함수
-##### 함수 Default Value
-- 함수 parameter의 default value는 오른쪽부터 채워져 있어야 함.
-```cpp folder title:default_value
-int add (int a, int b) {...}
-int add (int a, int b, int c = 3) {...} // 위의 add와 같이 int형 변수 두개만 넣으면 되므로 모호 해짐
-```
-
-
-### Class
-#### 생성자 / 소멸자
-- 필요 시 정의
-- 컴파일러가 Default 생성
-##### 생성자
+### 생성자
 - 반환 타입 X
 - 이름이 class와 동일한 멤버 함수
 - 객체, 멤버 변수 초기화
@@ -129,7 +75,7 @@ public :
 	}
 }
 ```
-##### 복사 생성자
+#### 복사 생성자
 - `SoSimple sim2 = sim1` == `SoSimple sim2(sim1)`
 - 객체의 멤버의 복사를 해 저장
 - Default 복사 생성자는 단순히 멤버 변수의 값만 복사 : 얕은 복사
@@ -202,12 +148,12 @@ int main() {
 ```
 
 
-##### 소멸자
+### 소멸자
 - 반환 타입 X
 - 이름이 class에 ~를 앞에 붙임
 - 객체 소멸 시 자원 해제
 
-#### this
+### this
 - 현재 객체의 주소를 갖는 포인터 변수
 - class를 정의하는 부분에서 사용
 - Running Time에는 사용 불가
@@ -224,7 +170,7 @@ public:
 };
 ```
 
-#### static member
+### static member
 |       | 전역 변수               | static               | 지역 변수    | 레지스터     |
 | ----- | ------------------- | -------------------- | -------- | -------- |
 | 메모리   | data                | data                 | stack    | register |
@@ -275,7 +221,7 @@ int main() {
 - static 멤버 함수에서 일반 멤버 변수 사용/호출 불가(static은 가능)
 - static 멤버 함수는 멤버 변수가 없는 순수 기능 제공 class에 활용
 
-#### const 멤버 함수
+### const 멤버 함수
 - 함수 내에서 멤버 변수 값 변경을 막음
 - const 함수 내에서는 const함수만 사용 가능
 ```cpp folder title:const_member_funcrion
@@ -396,27 +342,219 @@ public:
 	private : 부모 클래스에 정의된 멤버가 모두 private으로 상속
 - Ex) 학사 관리 (학생, 교수, 교직원) -> 공통점을 parent class로 정의
 
+#### 다중 상속
+- 여러 class로부터 상속
+- 중복되는 변수, 함수를 조심해야 함.
+
+#### 가상 상속
 
 
-# 디자인 패턴
-## Singletone Design
-- 객체 생성을 class안에서 수행
-- 생성한 객체를 반환하는 메서드 -> static 멤버 함수
-```cpp folder title:singleton_design
-class Singletone {
-	static Singletone st;
-	int a;
-	Singletone(){}
+### 연산자 오버로딩
+- 연산자 기능을 사용자 정의 class에 적용
+- 연산자 기본 기능을 저해하면 안됨
+- class의 멤버 함수로 정의 / 전역 함수로 정의
+
+```cpp folder title:operator_overloading
+class Point {
+	int x, y;
 public:
-	static Singletone &getInstance() {
-		return st;
+	Point():x(0), y(0) {}
+	Point(int x, int y):x(x), y(y) {}
+	// +연산자 오버로딩
+	Point operator+(const Point &p) {
+		Point res(x+p.x, y+p.y); // type이 같아 private접근 허용
+		return res;
 	}
-	void setA(int a) {
-		this->a = a;
+	friend Point operator-(const Point &p1, const Point &p2);
+};
+Point operator-(const Point &p1, const Point &p2) {
+	Point res(p1.x-p2.x, p1.y-p2.y);
+	return res;
+}
+int main() {
+	Point a(2, 2);
+	Point b(3, 3);
+	Point c = a + b;
+	Point d = a - b;
+	c.Print();
+	d.Print();
+}
+```
+
+
+### 대입 연산자 재정의
+```cpp folder title:substitution_operator_overwriting
+class Person {
+char *name;
+int age;
+public:
+	Person(char *name, int age) {
+		int len = strlen(name) + 1;
+		this->name = new char[len];
+		strcpy(this->name, name);
+		this->age = age;
 	}
-	int getA() {
-		return a;
+	void printPerson() {
+		cout << "mname : " << name << endl;
+		cout << "age : " << age << endl;
+	}
+	// 이름을 대입하기 위해서는 메모리 할당을 다시해야 함.
+	Person& operator=(const Person& p) {
+		delete []name;
+		int len = strlen(p.name) + 1;
+		this->name = new char[len];
+		strcpy(this->name, p.name);
+		this->age = p.age;
+		return *this;
+	}
+
+	~Person() {
+		delete[] name;
 	}
 };
 ```
+
+
+### 함수
+##### 함수 Default Value
+- 함수 parameter의 default value는 오른쪽부터 채워져 있어야 함.
+```cpp folder title:default_value
+int add (int a, int b) {...}
+int add (int a, int b, int c = 3) {...} // 위의 add와 같이 int형 변수 두개만 넣으면 되므로 모호 해짐
+```
+
+
+
+
+# Template
+- 코드 일반화에 사용
+- Type이 달라도 동작이 동일한 코드를 Type은 가상의 이름으로 작성하고 실행
+- [Compile](Compile.md)시간에 타입 별로 함수를 #overloading 해서 제공
+- 코드 크기 증가
+
+```cpp folder tilte:template
+template<typename, T>
+t.add(T a, T b) {
+	return a + b;
+
+int main() {
+	cout <<"add(1, 2) "a << add(1,2) << endl;
+	cout <<"add(1.2, 2.3):" << add(1.2, 2.3) << endl;
+	cout <<"add(\"aaa\", \"bbb\"):" << add<string>("aaa", "bbb") << endl;
+}
+```
+
+
+#### 특수화
+- 일반적으로 의미가 없는 함수를 동일한 명칭으로 사용
+
+```cpp folder title:template
+template<typename T>
+T Max(T v1, T v2) {
+	return (v1 > v2) ? v1 : v2;
+}
+
+template<>
+char* Max(char* v1, char* v2) {
+	cout << "char *비교" << endl;
+	return (strlen(v1) > strlen(v2)) ? v1 : v2;
+}
+
+template<>
+const char* Max(const char* v1, const char* v2) {
+	cout << "const char *비교" << endl;
+	return (strlen(v1) > strlen(v2)) ? v1 : v2;
+}
+
+int main() {
+	char buf1[] = {'1', 'b'};
+	char buf2[] = {'a', 'b', 'c', 'd'};
+	
+}
+```
+
+
+#### class Template
+- class의 멤버 변수의 자료형
+
+```cpp folder title:class_template
+template<typename T>
+class MyTempI {
+public:
+	T a;
+	T b;
+	MyTempI(T a, T b):a(a), b(b) {}
+	T getA() {
+		return a;
+	}
+	void setA(T a) {
+		this->a = a;
+	}
+	void print() {
+		cout << "a : " << a << ", b : " << b << endl;
+	}
+};
+```
+
+##### 배열 class template
+```cpp folder title:array_class_template
+class Point {
+public:
+	int x, y;
+	Point() {}
+	Point(int x, int y):x(x), y(y) {}
+	void print() {
+		cout << "x:" << x << " y:" << y << endl;
+	}
+};
+template<typename T>
+class MyArr {
+	T *arr;
+	int len;
+public:
+	MyArr() {
+		arr = new T[6];
+		len = 6;
+	}
+	MyArr(int len) {
+		arr = new T[len];
+		this->len = len;
+	}
+	const T& operator[](int idx) const {
+		if (idx < 0 || idx >= len) {
+			cout << "out of bounds exception" << endl;
+			exit(-1); 
+		}
+		return arr[idx];
+	}
+	T& operator[](int idx) const {
+		if (idx < 0|| idx >= len) {
+			cout << "out of bounds exception" << endl;
+			exit(-1);
+		}
+		return arr[idx];
+	}
+	int getLan() {
+		return len;
+	}
+	~MyArr() {
+		delete[] arr;
+	}
+};
+
+int main() {
+	MyArr<Point> a;
+	cout << a.getLen() << endl;
+	a[0] = Point(1,2);
+	a[0].print();
+	return 0;
+}
+```
+
+##### class template 특수화
+
+
+### 배열 index
+- 기본 배열은 접근에 대한 경계 X
+- const함수와 아닌 함수도 다르게 인식
 

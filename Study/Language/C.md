@@ -59,3 +59,19 @@ expression : `+`, `-`, `>>`, ...
 volatile
 - cache를 쓰지 말고 메모리에 직접 데이터 처리
 - 최적화 금지
+
+
+
+#### main
+- main의 return은 부모 프로세서가 자식 프로세서의 정상 종료 확인
+
+
+[C](C.md)/[C++](C++) 컴파일 -> 실행파일 .exe -> 실행 -> start up code(초기화 코드)
+.text : 코드, 상수, RO
+.data : 초기화 한 전역변수, static 변수, RW
+.bss : 초기화 안한 전역변수, static 변수, 자동으로 0으로 초기화, RW
+.heap : 포인터로만 접근
+.stack : 함수 사용 메모리, 지역변수 저장
+
+start up code
+- 실행 파일을 램에 올림
