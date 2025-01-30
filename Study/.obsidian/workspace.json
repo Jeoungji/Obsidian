@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "31bacce11fa0378a",
+        "id": "3f12b78ec6a1d673",
         "type": "tabs",
         "children": [
           {
-            "id": "afc2e504225ca7d7",
+            "id": "0e3ac4091336d5e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STM32/MCU.md",
+                "file": "Car/BSW.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MCU"
-            }
-          },
-          {
-            "id": "09301459b195802b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "title": "BSW"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -175,36 +164,43 @@
       "markdown-importer:마크다운 형식 가져오기 열기": false
     }
   },
-  "active": "09301459b195802b",
+  "active": "0e3ac4091336d5e6",
   "lastOpenFiles": [
-    "CAN.md",
+    "Car/MISRA-C.md",
+    "Car/BSW.md",
+    "Car/ECU.md",
+    "Project/B-G431B-ESC1_Project/B-G431B-ESC1_Project.md",
+    "Project/BLDC_Project/BLDC FOC Driver.md",
+    "Project/B-G431B-ESC1_Project",
+    "Car/ISO-26262.md",
+    "Car/ISO-2626.md",
+    "HW/Floating_Gate.md",
+    "Car/A-SPICE.md",
+    "HW/Image",
+    "HW/Image/Floating_Gate.png",
+    "SW.md",
+    "HW/EEPROM.md",
+    "Communication/CAN.md",
+    "HW",
+    "HW/Charge_Pump.md",
+    "Welcome.md",
+    "Language/C++.md",
+    "Project/Scoppy_Hardware/Scoppy.md",
     "STM32/MCU.md",
     "ROS/ROS2.md",
     "Car/CDD.md",
     "STM32",
     "Communication",
     "ROS",
-    "Car/ISO-26262.md",
-    "Project/Scoppy_Hardware/Scoppy.md",
-    "Project/BLDC_Project/BLDC FOC Driver.md",
-    "Language/C++.md",
     "Language/캡슐화.md",
     "Language/C.md",
     "Car/AUTOSAR.md",
-    "Car/A-SPICE.md",
-    "Car/ECU.md",
-    "Car/BSW.md",
     "Car/ASIL.md",
     "Car/HARA.md",
-    "Welcome.md",
-    "소프트웨어.md",
     "Car",
     "Project/Scoppy_Hardware/Image/c2d24560-d956-44f7-ab82-f0728f82ca43",
     "Project/Scoppy_Hardware/Image/3cbd7e4c-59ea-415a-87ec-bc20ae97aaa8",
     "Project/Scoppy_Hardware/Image/b4e442f4-099a-4ae0-ab5f-01f25b07e3d2",
-    "Project/Scoppy_Hardware/Image/bc4d4bb1-9e5c-47a1-9f1d-09a9dcba2fab",
-    "Project/Scoppy_Hardware/Image/381152a0-cc3e-4719-85dc-48e2b0e61e2b",
-    "Project/Scoppy_Hardware/Image/aec94ca9-0a18-490d-8ec6-a45ef867c550",
     "Project/Scoppy_Hardware/Image/Assamble_R.jpg",
     "Project/Scoppy_Hardware/Image/Soldering_2.jpg",
     "Project/Scoppy_Hardware/Image/Soldering_1.jpg",
@@ -214,14 +210,7 @@
     "Project/Scoppy_Hardware/Image/PCB_CAD.png",
     "Project/Scoppy_Hardware/Image/PCB_3D.png",
     "Project/Scoppy_Hardware/Image/PCB_2D_2.png",
-    "Project/Scoppy_Hardware/Image/PCB_2D.png",
     "Project/Scoppy.md",
-    "Project/Scoppyd/Scoppy.md",
-    "Project/Scoppy/Scoppy.md",
-    "Project/무제 파일.md",
-    "BLDC_Project/BLDC FOC Driver.md",
-    "Language/구조체.md",
-    "Language/상속성.md",
-    "Language/은닉성.md"
+    "Project/Scoppyd/Scoppy.md"
   ]
 }
