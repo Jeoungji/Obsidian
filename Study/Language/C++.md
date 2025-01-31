@@ -558,3 +558,12 @@ int main() {
 - 기본 배열은 접근에 대한 경계 X
 - const함수와 아닌 함수도 다르게 인식
 
+
+# 예외처리
+예외가 발생하면 try catch
+
+try - throw: try 블록 안에서 예외가 발생시 객체를 던짐
+catch : 던저진 오류를 받아서 처리
+```cpp folder title:try~catch
+class MyException
+```
