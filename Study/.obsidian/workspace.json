@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "4917aa809dec6bda",
+        "id": "42b7a9f1dd2ca1b1",
         "type": "tabs",
         "children": [
           {
-            "id": "8e0d25283419fcfe",
+            "id": "c949e63b82360219",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/C++.md",
+                "file": "Car/MISRA-C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++"
+              "title": "MISRA-C"
+            }
+          },
+          {
+            "id": "7912dc6c7e9eb781",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project/B-G431B-ESC1_Project/B-G431B-ESC1_Project.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "B-G431B-ESC1_Project"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7c1935ce74c282e8",
@@ -165,52 +179,53 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8e0d25283419fcfe",
+  "active": "7912dc6c7e9eb781",
   "lastOpenFiles": [
+    "Project/B-G431B-ESC1_Project",
+    "Project/Scoppy_Hardware/Scoppy.md",
+    "Project/B-G431B-ESC1_Project/B-G431B-ESC1_Project.md",
+    "HW/Floating_Gate.md",
+    "HW/Image/Floating_Gate.png",
+    "HW/EEPROM.md",
+    "HW/Image/Pasted image 20250127153615.png",
+    "HW/Charge_Pump.md",
+    "Car/MISRA-C.md",
+    "Car/ISO-26262.md",
+    "Car/HARA.md",
+    "Car/ECU.md",
+    "Car/CDD.md",
+    "Car/BSW.md",
+    "Car/AUTOSAR.md",
     "Language/디자인_패턴.md",
-    "Communicate/CAN.md",
-    "Communicate/Image/FUll_CAN.png",
-    "Communicate/Image/Basic_CAN.png",
-    "Communicate/Image/SYNC.png",
-    "Communicate/Image/Stuff_Bit_Counter.png",
-    "Pasted image 20250127153615.png",
-    "Language/C++.md",
-    "Language/객체 지향 프로그램.md",
-    "Language/C.md",
-    "회로/LPF.md",
-    "회로/Image/T_Filter.png",
-    "회로/Image/L_input_Filter.png",
-    "회로/Image/C_input_Filter.png",
-    "회로/Image",
-    "회로/Image/Pi_Filter.png",
-    "Communicate/Baud_Rate.md",
-    "Communicate/Bit_Rate.md",
+    "Car/ASIL.md",
     "Car/A-SPICE.md",
-    "Communicate/Bit.md",
-    "Communicate/Baud.md",
+    "Language/C++.md",
+    "HW/Image/T_Filter.png",
+    "HW/Image/L_input_Filter.png",
+    "HW/Image/Pi_Filter.png",
+    "HW/Image/C_input_Filter.png",
+    "HW/Image",
+    "HW/LPF.md",
+    "HW",
+    "SW.md",
+    "Language/객체 지향 프로그램.md",
+    "Language/Pasted.md",
+    "Communicate/Image/Stuff_Bit_Counter.png",
+    "Communicate/Image/SYNC.png",
+    "Communicate/Image/Basic_CAN.png",
     "Communicate/Image/2Bit_Symbol.png",
     "Communicate/Image",
+    "Communicate/Bit_Rate.md",
+    "Communicate/Baud_Rate.md",
+    "Communicate/CAN.md",
     "Communicate",
-    "Language/Pasted.md",
-    "회로",
-    "Language/다형성.md",
-    "Project/BLDC_Project/BLDC FOC Driver.md",
-    "Car/ISO-26262.md",
-    "STM32/MCU.md",
-    "Excalidraw/Drawing 2025-01-27 09.00.24.excalidraw.md",
-    "소프트웨어.md",
+    "SW.md",
+    "Project/B-G431B-ESC1_Project/B-G431B-ESC1_Project.md",
+    "Project/B-G431B-ESC1_Project",
+    "HW/Image",
+    "HW",
+    "Communication",
     "STM32",
-    "ROS/ROS2.md",
-    "ROS",
-    "C++.md",
-    "Project/Scoppy_Hardware/Scoppy.md",
-    "Project/Scoppy_Hardware/Image",
-    "Project/Scoppy_Hardware",
-    "Project/DataSheet/Sensor/Encoder/Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN.pdf",
-    "Project/DataSheet/Sensor/Encoder",
-    "Language/캡슐화.md",
-    "Language/은닉성.md",
-    "Language/상속성.md",
-    "Language/구조체.md"
+    "ROS"
   ]
 }

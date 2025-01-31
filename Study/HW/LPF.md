@@ -15,7 +15,7 @@
 
 
 # T형 필터
-![T_Filter](Image/T_Filter.png)
+![T_Filter](T_Filter.png)
 
 
 
