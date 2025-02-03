@@ -567,3 +567,38 @@ catch : 던저진 오류를 받아서 처리
 ```cpp folder title:try~catch
 class MyException
 ```
+
+
+
+# Stream
+## IO Streams
+
+
+# STL
+## Container
+#### Sequence containers
+- 데이터만 저장
+- Vetor, Linked List, dequeue
+#### Associative containers
+- key와 함께 저장
+- 빠른 검색
+- multi set, set, multi map, map
+- multi는 key 중복 가능
+#### Container adapters
+- stack과 queue와 같은 자료 구조를 제공
+## Iterators
+- 다음 요소를 가리키는 포인터
+const iterator
+- 읽기만 가능한 iterator
+iterator
+- 수정 가능한 iterator
+
+begin() : 시작 주소
+end() : 마지막 주소
+
+#### vector
+- 배열 기반
+- index접근
+- 공간이 부족하면 자동으로 다른 공간을 할당 후 딥카피
+- capacity : 할당 받은 공간
+## Algorithms

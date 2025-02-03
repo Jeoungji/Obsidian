@@ -12,7 +12,7 @@ Raspberry Pi Pico와 Android를 사용한 오실로스코프
 
 | Assamble                          | Assable bottom                          |
 | --------------------------------- | --------------------------------------- |
-| ![Assamble](Image/Assamble_R.jpg) | ![Assamble](Image/Assamble_bottom.jpg)  |
+| ![Assamble](Image/Assamble_R.png) | ![Assamble](Image/Assamble_bottom.jpg)  |
 | PCB Top                           | PCB Bottom                              |
 | ![PCB_Top](Image/PCB_2D.png)      | ![PCB_Bottom](Image/PCB_2D_2.png)       |
 | PCB 3D                            | Test                                    |

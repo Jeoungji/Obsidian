@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Car/MISRA-C.md",
+                "file": "Project/Scoppy_Hardware/Scoppy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MISRA-C"
-            }
-          },
-          {
-            "id": "7912dc6c7e9eb781",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project/B-G431B-ESC1_Project/B-G431B-ESC1_Project.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "B-G431B-ESC1_Project"
+              "title": "Scoppy"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,17 +164,29 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7912dc6c7e9eb781",
+  "active": "c949e63b82360219",
   "lastOpenFiles": [
-    "Project/B-G431B-ESC1_Project",
+    "Project/Scoppy_Hardware/Image/PCB_3D.png",
+    "Project/Scoppy_Hardware/Image/Assamble_R.png",
+    "Project/Scoppy_Hardware/Image/~ssamble_R - 복사본.tmp",
+    "Project/Scoppy_Hardware/Image/Assamble_R - 복사본.png.~tmp",
+    "Project/Scoppy_Hardware/Image/Assamble_R - 복사본.png",
+    "Project/Scoppy_Hardware/Image/Assamble_R - 복사본.jpg",
+    "Project/Scoppy_Hardware/Image/PCB_2D_2.png",
+    "Project/Scoppy_Hardware/Image/PCB_2D.png",
+    "Project/Scoppy_Hardware/Image/Oscilloscope_Test.jpg",
+    "Project/Scoppy_Hardware/Image/Oscilloscope.jpg",
+    "Project/Scoppy_Hardware/Image/Logic_analyzer.jpg",
+    "Project/Scoppy_Hardware/Image/Assamble_R.jpg",
+    "Project/Scoppy_Hardware/Image/Case.png",
     "Project/Scoppy_Hardware/Scoppy.md",
-    "Project/B-G431B-ESC1_Project/B-G431B-ESC1_Project.md",
-    "HW/Floating_Gate.md",
-    "HW/Image/Floating_Gate.png",
-    "HW/EEPROM.md",
-    "HW/Image/Pasted image 20250127153615.png",
-    "HW/Charge_Pump.md",
+    "Language/C++.md",
     "Car/MISRA-C.md",
+    "Project/B-G431B-ESC1_Project/B-G431B-ESC1_Project.md",
+    "Project/B-G431B-ESC1_Project",
+    "HW/Floating_Gate.md",
+    "HW/EEPROM.md",
+    "HW/Charge_Pump.md",
     "Car/ISO-26262.md",
     "Car/HARA.md",
     "Car/ECU.md",
@@ -199,33 +196,20 @@
     "Language/디자인_패턴.md",
     "Car/ASIL.md",
     "Car/A-SPICE.md",
-    "Language/C++.md",
-    "HW/Image/T_Filter.png",
-    "HW/Image/L_input_Filter.png",
-    "HW/Image/Pi_Filter.png",
-    "HW/Image/C_input_Filter.png",
     "HW/Image",
     "HW/LPF.md",
     "HW",
     "SW.md",
     "Language/객체 지향 프로그램.md",
     "Language/Pasted.md",
-    "Communicate/Image/Stuff_Bit_Counter.png",
-    "Communicate/Image/SYNC.png",
-    "Communicate/Image/Basic_CAN.png",
-    "Communicate/Image/2Bit_Symbol.png",
     "Communicate/Image",
     "Communicate/Bit_Rate.md",
     "Communicate/Baud_Rate.md",
     "Communicate/CAN.md",
     "Communicate",
     "SW.md",
-    "Project/B-G431B-ESC1_Project/B-G431B-ESC1_Project.md",
     "Project/B-G431B-ESC1_Project",
     "HW/Image",
-    "HW",
-    "Communication",
-    "STM32",
-    "ROS"
+    "HW"
   ]
 }
