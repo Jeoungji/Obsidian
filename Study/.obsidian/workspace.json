@@ -11,17 +11,42 @@
             "id": "c949e63b82360219",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
+            }
+          },
+          {
+            "id": "24fa5d7fb7849665",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Scoppy_Hardware/Scoppy.md",
+                "file": "Language/C샵.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scoppy"
+              "title": "C샵"
+            }
+          },
+          {
+            "id": "0995d07ac3487615",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HW/차동_모드.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "차동_모드"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -40,7 +65,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -77,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7c1935ce74c282e8",
@@ -154,32 +181,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "markdown-importer:마크다운 형식 불러오기 열기": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c949e63b82360219",
+  "active": "0995d07ac3487615",
   "lastOpenFiles": [
-    "Project/Scoppy_Hardware/Image/PCB_3D.png",
-    "Project/Scoppy_Hardware/Image/Assamble_R.png",
+    "Pasted image 20250204104108.png",
+    "Pasted image 20250204104008.png",
+    "Pasted image 20250204103944.png",
+    "Pasted image 20250204103937.png",
+    "Pasted image 20250204103909.png",
+    "Pasted image 20250204103900.png",
+    "Pasted image 20250204103850.png",
+    "Pasted image 20250204103838.png",
+    "Pasted image 20250204103325.png",
+    "Pasted image 20250204103319.png",
+    "Pasted image 20250204103306.png",
+    "HW/차동_모드.md",
+    "HW/CAN FD PCB 설계 가이드.md",
+    "HW/EME.md",
+    "Language/C샵.md",
+    "Project/Scoppy_Hardware/Scoppy.md",
+    "Language/Pasted.md",
     "Project/Scoppy_Hardware/Image/~ssamble_R - 복사본.tmp",
     "Project/Scoppy_Hardware/Image/Assamble_R - 복사본.png.~tmp",
-    "Project/Scoppy_Hardware/Image/Assamble_R - 복사본.png",
-    "Project/Scoppy_Hardware/Image/Assamble_R - 복사본.jpg",
-    "Project/Scoppy_Hardware/Image/PCB_2D_2.png",
-    "Project/Scoppy_Hardware/Image/PCB_2D.png",
-    "Project/Scoppy_Hardware/Image/Oscilloscope_Test.jpg",
-    "Project/Scoppy_Hardware/Image/Oscilloscope.jpg",
-    "Project/Scoppy_Hardware/Image/Logic_analyzer.jpg",
-    "Project/Scoppy_Hardware/Image/Assamble_R.jpg",
-    "Project/Scoppy_Hardware/Image/Case.png",
-    "Project/Scoppy_Hardware/Scoppy.md",
     "Language/C++.md",
     "Car/MISRA-C.md",
     "Project/B-G431B-ESC1_Project/B-G431B-ESC1_Project.md",
@@ -201,13 +233,9 @@
     "HW",
     "SW.md",
     "Language/객체 지향 프로그램.md",
-    "Language/Pasted.md",
     "Communicate/Image",
     "Communicate/Bit_Rate.md",
-    "Communicate/Baud_Rate.md",
-    "Communicate/CAN.md",
     "Communicate",
-    "SW.md",
     "Project/B-G431B-ESC1_Project",
     "HW/Image",
     "HW"
