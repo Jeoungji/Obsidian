@@ -1,4 +1,6 @@
 #Embedded #motor #inverter #PCB #C 
+
+- [BLDC](BLDC.md) [FOC](FOC.md) [Actuator](Actuator.md) Project
 # 데이터 시트
 #### STM32G474CBT6
 [[MCU]]

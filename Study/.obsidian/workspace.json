@@ -11,10 +11,14 @@
             "id": "c949e63b82360219",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "Motor/DPWM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DPWM"
             }
           },
           {
@@ -32,21 +36,20 @@
             }
           },
           {
-            "id": "0995d07ac3487615",
+            "id": "53d7b2a816f7c6a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HW/차동_모드.md",
+                "file": "Motor/Flux Weakness Control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "차동_모드"
+              "title": "Flux Weakness Control"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,23 +194,34 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0995d07ac3487615",
+  "active": "c949e63b82360219",
   "lastOpenFiles": [
-    "Pasted image 20250204104108.png",
-    "Pasted image 20250204104008.png",
-    "Pasted image 20250204103944.png",
-    "Pasted image 20250204103937.png",
-    "Pasted image 20250204103909.png",
-    "Pasted image 20250204103900.png",
-    "Pasted image 20250204103850.png",
-    "Pasted image 20250204103838.png",
-    "Pasted image 20250204103325.png",
-    "Pasted image 20250204103319.png",
-    "Pasted image 20250204103306.png",
-    "HW/차동_모드.md",
-    "HW/CAN FD PCB 설계 가이드.md",
-    "HW/EME.md",
+    "HW/CANFD_PCB_설계 가이드.md",
+    "Project/BLDC_Project/BLDC FOC Driver.md",
+    "Motor/Flux Weakness Control.md",
+    "Motor/MTPA.md",
+    "Motor/Six-Step Control.md",
+    "Motor/Park Transform.md",
+    "Motor/Clarke Transform.md",
+    "Motor/FOC.md",
+    "Motor/SVPWM.md",
+    "Motor/DPWM.md",
+    "Motor/SPWM.md",
+    "Car/A-SPICE.md",
     "Language/C샵.md",
+    "HW/Image/Pasted image 20250204102727.png",
+    "HW/Image/Pasted image 20250204102738.png",
+    "Motor",
+    "HW/Image/Pasted image 20250204102701.png",
+    "HW/차동_모드.md",
+    "HW/Image/Pasted image 20250204104108.png",
+    "HW/Image/Pasted image 20250204104008.png",
+    "HW/Image/Pasted image 20250204103944.png",
+    "HW/Image/Pasted image 20250204103937.png",
+    "HW/Image/Pasted image 20250204103909.png",
+    "HW/Image/Pasted image 20250204103900.png",
+    "HW/Image/Pasted image 20250204103850.png",
+    "HW/EME.md",
     "Project/Scoppy_Hardware/Scoppy.md",
     "Language/Pasted.md",
     "Project/Scoppy_Hardware/Image/~ssamble_R - 복사본.tmp",
@@ -222,22 +236,11 @@
     "Car/ISO-26262.md",
     "Car/HARA.md",
     "Car/ECU.md",
-    "Car/CDD.md",
-    "Car/BSW.md",
-    "Car/AUTOSAR.md",
-    "Language/디자인_패턴.md",
-    "Car/ASIL.md",
-    "Car/A-SPICE.md",
     "HW/Image",
-    "HW/LPF.md",
     "HW",
-    "SW.md",
-    "Language/객체 지향 프로그램.md",
     "Communicate/Image",
-    "Communicate/Bit_Rate.md",
     "Communicate",
     "Project/B-G431B-ESC1_Project",
-    "HW/Image",
-    "HW"
+    "HW/Image"
   ]
 }

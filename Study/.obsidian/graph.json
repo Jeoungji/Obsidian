@@ -4,7 +4,7 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 6070742
       }
+    },
+    {
+      "query": "path:Motor  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
     }
   ],
   "collapse-display": false,
@@ -46,6 +53,6 @@
   "repelStrength": 13.0729166666667,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 1.053497942386848,
-  "close": false
+  "scale": 0.7514342322277747,
+  "close": true
 }
