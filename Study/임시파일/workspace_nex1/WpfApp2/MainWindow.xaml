@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        DataContext="ViewModel.MainWindowViewModel">
+    <Grid>
+        <TextBox Text="{Binding Model.Num}" HorizontalAlignment="Left" Margin="31,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="32"/>
+        <TextBox Text="{Binding Model.Name}" HorizontalAlignment="Left" Margin="31,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="32"/>
+        <TextBlock Text="{Binding Model.Res}" HorizontalAlignment="Left" Margin="31,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="32"/>
+        <Button Command="{Binding Cmd}" Content="text input" HorizontalAlignment="Left" Margin="31,126,0,0" VerticalAlignment="Top" Width="120" Height="32"/>
+        <ListBox SelectedItem="{Binding p}" SelectedIndex ="{Binding SelectedIdx}" ItemsSource="{Binding Persons}" Margin="184,19,443,276">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding Num}"/>
+                        <TextBlock Grid.Column="1" Text="{Binding Name}"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Command="{Binding SaveCmd}" Content="Save" HorizontalAlignment="Left" Margin="31,163,0,0" VerticalAlignment="Top" Width="120" Height="20"/>
+        <Button Command="{Binding EditCmd}" Content="Edit" HorizontalAlignment="Left" Margin="184,163,0,0" VerticalAlignment="Top" Width="163"/>
+        <Button Command="{Binding DeleteCmd}" Content="Delete" HorizontalAlignment="Left" Margin="184,183,0,0" VerticalAlignment="Top" Width="163"/>
+
+
+    </Grid>
+</Window>

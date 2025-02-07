@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1737513987 source:c:\users\user\desktop\c++work\prj1\main.cpp
+	<iostream>
+	"member.h"
+
+1737514143 c:\users\user\desktop\c++work\prj1\member.h
+	<string>
+

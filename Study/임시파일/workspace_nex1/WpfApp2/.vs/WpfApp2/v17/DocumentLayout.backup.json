@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\workspace_nex1\\WpfApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37F1956E-950D-43A2-839D-D430789EF91D}|WpfApp2.csproj|c:\\workspace_nex1\\wpfapp2\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37F1956E-950D-43A2-839D-D430789EF91D}|WpfApp2.csproj|solutionrelative:command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F1956E-950D-43A2-839D-D430789EF91D}|WpfApp2.csproj|c:\\workspace_nex1\\wpfapp2\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37F1956E-950D-43A2-839D-D430789EF91D}|WpfApp2.csproj|solutionrelative:viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F1956E-950D-43A2-839D-D430789EF91D}|WpfApp2.csproj|c:\\workspace_nex1\\wpfapp2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37F1956E-950D-43A2-839D-D430789EF91D}|WpfApp2.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F1956E-950D-43A2-839D-D430789EF91D}|WpfApp2.csproj|c:\\workspace_nex1\\wpfapp2\\model\\mainwindowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37F1956E-950D-43A2-839D-D430789EF91D}|WpfApp2.csproj|solutionrelative:model\\mainwindowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F1956E-950D-43A2-839D-D430789EF91D}|WpfApp2.csproj|c:\\workspace_nex1\\wpfapp2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37F1956E-950D-43A2-839D-D430789EF91D}|WpfApp2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 184,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\workspace_nex1\\WpfApp2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\workspace_nex1\\WpfApp2\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-07T01:23:06.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\workspace_nex1\\WpfApp2\\Command.cs",
+              "RelativeDocumentMoniker": "Command.cs",
+              "ToolTip": "C:\\workspace_nex1\\WpfApp2\\Command.cs",
+              "RelativeToolTip": "Command.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T01:11:21.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\workspace_nex1\\WpfApp2\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\workspace_nex1\\WpfApp2\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeToolTip": "ViewModel\\MainWindowViewModel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T00:31:37.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindowModel.cs",
+              "DocumentMoniker": "C:\\workspace_nex1\\WpfApp2\\Model\\MainWindowModel.cs",
+              "RelativeDocumentMoniker": "Model\\MainWindowModel.cs",
+              "ToolTip": "C:\\workspace_nex1\\WpfApp2\\Model\\MainWindowModel.cs",
+              "RelativeToolTip": "Model\\MainWindowModel.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAcwEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T00:26:12.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\workspace_nex1\\WpfApp2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\workspace_nex1\\WpfApp2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T00:24:27.192Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

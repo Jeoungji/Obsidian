@@ -1,0 +1,11 @@
+rabbit
+dog
+cat
+elephant
+tiger
+
+tiger
+phanter
+eager
+human
+lion

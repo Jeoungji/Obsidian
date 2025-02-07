@@ -1,0 +1,14 @@
+﻿  a.c
+  b.c
+  day01_250102.c
+  day03_250106.c
+  day04_250107.c
+  day05_250108.c
+  day06_250109.c
+  day07_250110.c
+  day08_250113.c
+  day09_250114.c
+  day10_250115.c
+  코드를 생성하고 있습니다...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: _main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\workspace_nex1\C_programming250102\Debug\C_programming250102.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

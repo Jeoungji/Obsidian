@@ -1,0 +1,14 @@
+C:\workspace_nex1\C#_2025_02_03_3\bin\Debug\net8.0\C#_2025_02_03_3.exe
+C:\workspace_nex1\C#_2025_02_03_3\bin\Debug\net8.0\C#_2025_02_03_3.deps.json
+C:\workspace_nex1\C#_2025_02_03_3\bin\Debug\net8.0\C#_2025_02_03_3.runtimeconfig.json
+C:\workspace_nex1\C#_2025_02_03_3\bin\Debug\net8.0\C#_2025_02_03_3.dll
+C:\workspace_nex1\C#_2025_02_03_3\bin\Debug\net8.0\C#_2025_02_03_3.pdb
+C:\workspace_nex1\C#_2025_02_03_3\obj\Debug\net8.0\C#_2025_02_03_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace_nex1\C#_2025_02_03_3\obj\Debug\net8.0\C#_2025_02_03_3.AssemblyInfoInputs.cache
+C:\workspace_nex1\C#_2025_02_03_3\obj\Debug\net8.0\C#_2025_02_03_3.AssemblyInfo.cs
+C:\workspace_nex1\C#_2025_02_03_3\obj\Debug\net8.0\C#_2025_02_03_3.csproj.CoreCompileInputs.cache
+C:\workspace_nex1\C#_2025_02_03_3\obj\Debug\net8.0\C#_2025_02_03_3.dll
+C:\workspace_nex1\C#_2025_02_03_3\obj\Debug\net8.0\refint\C#_2025_02_03_3.dll
+C:\workspace_nex1\C#_2025_02_03_3\obj\Debug\net8.0\C#_2025_02_03_3.pdb
+C:\workspace_nex1\C#_2025_02_03_3\obj\Debug\net8.0\C#_2025_02_03_3.genruntimeconfig.cache
+C:\workspace_nex1\C#_2025_02_03_3\obj\Debug\net8.0\ref\C#_2025_02_03_3.dll

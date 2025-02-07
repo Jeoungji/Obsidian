@@ -1,0 +1,267 @@
+1. 간단히 뷰 위젯에 데이터 바인딩
+mvc : model(데이터) / view(뷰) / controller(흐름제어)
+mvvm : model viewModel(뷰와 데이터 사이에서 기능 처리. 이벤트 중심으로 처리) / view
+
+<view>
+<Window x:Class="WpfApp2.MainWindow"
+        ...
+        DataContext="ViewModel.ViewModel">
+    <Grid>
+
+
+        <TextBox x:Name="x" HorizontalAlignment="Left" Text="{Binding Model.Num}" Height="72" Margin="36,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230"/>
+
+        <TextBox x:Name="y" HorizontalAlignment="Left" Text="{Binding Model.Name}" Margin="36,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Height="72"/>
+            </Grid>
+</Window>
+---------------------------------------------------------------------------
+<model>
+ public class Model : INotifyPropertyChanged // I로 시작은 interface
+ {
+
+     private int num = 1;
+     public int Num { 
+         get { return num; }
+         set { num = value; onPropertyChanged("Num"); } // Num속성의 변경을 알림. xml의 'Binding Model.Num'와 같아야 함.
+     }
+
+     private string name = "aaa";
+     public string Name
+     {
+         get { return name; }
+         set { name = value; onPropertyChanged("Name"); }
+     }
+
+     public event PropertyChangedEventHandler PropertyChanged;
+     protected void onPropertyChanged(string propertyName)
+     {
+         PropertyChangedEventHandler handler = PropertyChanged;
+         if(handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
+     }
+ }
+----------------------------------------------------------------
+<viewModel>
+public class ViewModel : INotifyPropertyChanged
+{
+    private Model.Model model = null; // namespace.class
+    public Model.Model Model { get { return model; } 
+    set { model = value; onPropertyChanged("Model"); }
+    }
+
+    public ViewModel()
+    {
+        model = new Model.Model();
+    }
+    public event PropertyChangedEventHandler PropertyChanged;
+
+    protected void onPropertyChanged(string propertyName)
+    {
+        PropertyChangedEventHandler handler = PropertyChanged;
+        if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
+    }
+}
+----------------------------------------------------------------------
+<MainWindow.xaml.cs>
+public partial class MainWindow : Window
+{
+   
+
+    public MainWindow()
+    {
+        InitializeComponent();
+        DataContext = new ViewModel.ViewModel();
+    }
+
+    
+}
+===================================================
+2. 버튼에 커맨드 연결
+
+- 뷰에 텍스트블록과 버튼추가
+<TextBlock x:Name="res" Text="{Binding Model.Res}" HorizontalAlignment="Left" Margin="36,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="207"/>
+
+<Button Content="Button" Command="{Binding Cmd}" HorizontalAlignment="Left" Margin="36,417,0,0" VerticalAlignment="Top" Height="60" Width="230"/>
+---------------------------------------------------------------------
+- 커맨드 클래스 추가
+<Command>
+ public class Command : ICommand
+ {
+     Action<object> _execute;
+     Func<object, bool> _executeFunc;
+
+     public Command(Action<object> execute, Func<object, bool> executeFunc)
+     {
+         _execute = execute;
+         _executeFunc = executeFunc;
+     }
+     public event EventHandler? CanExecuteChanged;
+
+     public bool CanExecute(object? parameter)
+     {
+         return true;
+     }
+
+     public void Execute(object? parameter)
+     {
+         _execute(parameter);
+     }
+ }
+------------------------------------------------------------------------
+<model>변경
+ public class Model : INotifyPropertyChanged
+ {
+
+     private int num = 1;
+     public int Num { 
+         get { return num; }
+         set { num = value; onPropertyChanged("Num"); }
+     }
+
+     private string name = "aaa";
+     public string Name
+     {
+         get { return name; }
+         set { name = value; onPropertyChanged("Name"); }
+     }
+
+     private string res;
+     public string Res
+     {
+         get { return res; }
+         set { res = value; onPropertyChanged("Res"); }
+     }
+
+     public event PropertyChangedEventHandler PropertyChanged;
+     protected void onPropertyChanged(string propertyName)
+     {
+         PropertyChangedEventHandler handler = PropertyChanged;
+         if(handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
+     }
+ }
+
+----------------------------------------------------------------------
+<viewModel>
+public class ViewModel : INotifyPropertyChanged
+{
+    private Model.Model model = null;
+    public Model.Model Model { get { return model; } 
+    set { model = value; onPropertyChanged("Model"); }
+    }
+
+    public Command Cmd {  get; set; }
+    
+    public ViewModel()
+    {
+        model = new Model.Model();
+        Cmd = new Command(Execute_func, CanExecute_func);
+    }
+    private void Execute_func(object obj)
+    {
+        Model.Res = Model.Num + " / " + Model.Name;
+    }
+
+    private bool CanExecute_func(object obj)
+    {
+        return true;
+    }
+    public event PropertyChangedEventHandler PropertyChanged;
+
+    protected void onPropertyChanged(string propertyName)
+    {
+        PropertyChangedEventHandler handler = PropertyChanged;
+        if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
+    }
+}
+    
+------------------------------------------------------------------------------------
+3. 리스트 박스 바인딩
+<model>파일에 다음 클래스 추가
+public class Person : INotifyPropertyChanged
+{
+    public int Num{set;get;}
+    public string Name {set;get;}
+
+    public Person(int num, string name)
+    {
+        Num = num;
+        Name = name;
+    }
+    public override string ToString()
+    {
+        return Num+" / "+Name;
+    }
+ }
+-------------------------------------------------------------------------
+<viewModel>
+
+public class ViewModel : INotifyPropertyChanged
+{
+    private ObservableCollection<Model.Person> plist = null;
+    public ObservableCollection<Model.Person> Plist { get { return plist; } }
+
+    private Model.Model model = null;
+    public Model.Model Model { get { return model; } 
+    set { model = value; onPropertyChanged("Model"); }
+    }
+
+    public Command Cmd {  get; set; }
+    public Command CmdSave { get; set; }
+
+    public ViewModel()
+    {
+        model = new Model.Model();
+        Cmd = new Command(Execute_func, CanExecute_func);
+        CmdSave = new Command(Execute_save, CanExecute_save);
+        plist = new ObservableCollection<Model.Person>();
+        plist.Add(new Model.Person(1, "aaa"));
+        plist.Add(new Model.Person(2, "bbbb"));
+    }
+    private void Execute_func(object obj)
+    {
+        Model.Res = Model.Num + " / " + Model.Name;
+    }
+
+    private bool CanExecute_func(object obj)
+    {
+        return true;
+    }
+    private void Execute_save(object obj)
+    {
+        Plist.Add(new Model.Person(Model.Num, Model.Name));
+    }
+
+    private bool CanExecute_save(object obj)
+    {
+        return true;
+    }
+    public event PropertyChangedEventHandler PropertyChanged;
+
+    protected void onPropertyChanged(string propertyName)
+    {
+        PropertyChangedEventHandler handler = PropertyChanged;
+        if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
+    }
+}
+------------------------------------------------
+<view>에 리스트박스와 save버튼 추가
+<ListBox ItemsSource="{Binding Plist}"  Margin="410,77,688,311">
+    <ListBox.ItemTemplate>
+        <DataTemplate>
+            <Grid Margin="0,2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{Binding Num}"/>
+                <TextBlock Grid.Column="1" Text="{Binding Name}"/>
+            </Grid>
+        </DataTemplate>
+    </ListBox.ItemTemplate>
+
+
+</ListBox>
+<Button Content="save" Command="{Binding CmdSave}" HorizontalAlignment="Left" Margin="344,421,0,0" VerticalAlignment="Top" Height="52" Width="160"/>
+
+
+
+

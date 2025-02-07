@@ -1,0 +1,7 @@
+C:\workspace_nex1\C#_2025_02_03\bin\Debug\C#_2025_02_03.exe.config
+C:\workspace_nex1\C#_2025_02_03\bin\Debug\C#_2025_02_03.exe
+C:\workspace_nex1\C#_2025_02_03\bin\Debug\C#_2025_02_03.pdb
+C:\workspace_nex1\C#_2025_02_03\obj\Debug\C#_2025_02_03.csproj.AssemblyReference.cache
+C:\workspace_nex1\C#_2025_02_03\obj\Debug\C#_2025_02_03.csproj.CoreCompileInputs.cache
+C:\workspace_nex1\C#_2025_02_03\obj\Debug\C#_2025_02_03.exe
+C:\workspace_nex1\C#_2025_02_03\obj\Debug\C#_2025_02_03.pdb

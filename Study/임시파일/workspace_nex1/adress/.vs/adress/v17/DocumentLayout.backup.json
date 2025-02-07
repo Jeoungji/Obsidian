@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\workspace_nex1\\adress\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94C6E087-B1FF-42BB-8D50-7AE4B5A94069}|adress.vcxproj|C:\\workspace_nex1\\adress\\member.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94C6E087-B1FF-42BB-8D50-7AE4B5A94069}|adress.vcxproj|solutionrelative:member.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C6E087-B1FF-42BB-8D50-7AE4B5A94069}|adress.vcxproj|C:\\workspace_nex1\\adress\\addrservice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94C6E087-B1FF-42BB-8D50-7AE4B5A94069}|adress.vcxproj|solutionrelative:addrservice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C6E087-B1FF-42BB-8D50-7AE4B5A94069}|adress.vcxproj|C:\\workspace_nex1\\adress\\addr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94C6E087-B1FF-42BB-8D50-7AE4B5A94069}|adress.vcxproj|solutionrelative:addr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C6E087-B1FF-42BB-8D50-7AE4B5A94069}|adress.vcxproj|C:\\workspace_nex1\\adress\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94C6E087-B1FF-42BB-8D50-7AE4B5A94069}|adress.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C6E087-B1FF-42BB-8D50-7AE4B5A94069}|adress.vcxproj|C:\\workspace_nex1\\adress\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94C6E087-B1FF-42BB-8D50-7AE4B5A94069}|adress.vcxproj|solutionrelative:menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 184,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "menu.h",
+              "DocumentMoniker": "C:\\workspace_nex1\\adress\\menu.h",
+              "RelativeDocumentMoniker": "menu.h",
+              "ToolTip": "C:\\workspace_nex1\\adress\\menu.h",
+              "RelativeToolTip": "menu.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-31T03:41:07.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "addr.h",
+              "DocumentMoniker": "C:\\workspace_nex1\\adress\\addr.h",
+              "RelativeDocumentMoniker": "addr.h",
+              "ToolTip": "C:\\workspace_nex1\\adress\\addr.h",
+              "RelativeToolTip": "addr.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-31T03:15:11.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "member.h",
+              "DocumentMoniker": "C:\\workspace_nex1\\adress\\member.h",
+              "RelativeDocumentMoniker": "member.h",
+              "ToolTip": "C:\\workspace_nex1\\adress\\member.h",
+              "RelativeToolTip": "member.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-31T03:13:41.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "addrservice.h",
+              "DocumentMoniker": "C:\\workspace_nex1\\adress\\addrservice.h",
+              "RelativeDocumentMoniker": "addrservice.h",
+              "ToolTip": "C:\\workspace_nex1\\adress\\addrservice.h",
+              "RelativeToolTip": "addrservice.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-31T03:09:12.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\workspace_nex1\\adress\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\workspace_nex1\\adress\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-31T03:09:00.026Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\workspace_nex1\Memo\bin\Debug\net8.0\Memo.exe
+C:\workspace_nex1\Memo\bin\Debug\net8.0\Memo.deps.json
+C:\workspace_nex1\Memo\bin\Debug\net8.0\Memo.runtimeconfig.json
+C:\workspace_nex1\Memo\bin\Debug\net8.0\Memo.dll
+C:\workspace_nex1\Memo\bin\Debug\net8.0\Memo.pdb
+C:\workspace_nex1\Memo\obj\Debug\net8.0\Memo.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace_nex1\Memo\obj\Debug\net8.0\Memo.AssemblyInfoInputs.cache
+C:\workspace_nex1\Memo\obj\Debug\net8.0\Memo.AssemblyInfo.cs
+C:\workspace_nex1\Memo\obj\Debug\net8.0\Memo.csproj.CoreCompileInputs.cache
+C:\workspace_nex1\Memo\obj\Debug\net8.0\Memo.dll
+C:\workspace_nex1\Memo\obj\Debug\net8.0\refint\Memo.dll
+C:\workspace_nex1\Memo\obj\Debug\net8.0\Memo.pdb
+C:\workspace_nex1\Memo\obj\Debug\net8.0\Memo.genruntimeconfig.cache
+C:\workspace_nex1\Memo\obj\Debug\net8.0\ref\Memo.dll

@@ -1,0 +1,14 @@
+C:\workspace_nex1\PocketMon\bin\Debug\net8.0\PocketMon.exe
+C:\workspace_nex1\PocketMon\bin\Debug\net8.0\PocketMon.deps.json
+C:\workspace_nex1\PocketMon\bin\Debug\net8.0\PocketMon.runtimeconfig.json
+C:\workspace_nex1\PocketMon\bin\Debug\net8.0\PocketMon.dll
+C:\workspace_nex1\PocketMon\bin\Debug\net8.0\PocketMon.pdb
+C:\workspace_nex1\PocketMon\obj\Debug\net8.0\PocketMon.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace_nex1\PocketMon\obj\Debug\net8.0\PocketMon.AssemblyInfoInputs.cache
+C:\workspace_nex1\PocketMon\obj\Debug\net8.0\PocketMon.AssemblyInfo.cs
+C:\workspace_nex1\PocketMon\obj\Debug\net8.0\PocketMon.csproj.CoreCompileInputs.cache
+C:\workspace_nex1\PocketMon\obj\Debug\net8.0\PocketMon.dll
+C:\workspace_nex1\PocketMon\obj\Debug\net8.0\refint\PocketMon.dll
+C:\workspace_nex1\PocketMon\obj\Debug\net8.0\PocketMon.pdb
+C:\workspace_nex1\PocketMon\obj\Debug\net8.0\PocketMon.genruntimeconfig.cache
+C:\workspace_nex1\PocketMon\obj\Debug\net8.0\ref\PocketMon.dll
