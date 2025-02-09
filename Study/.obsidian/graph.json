@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 6084269
       }
+    },
+    {
+      "query": "path:STM32  ",
+      "color": {
+        "a": 1,
+        "rgb": 26265
+      }
     }
   ],
   "collapse-display": false,
@@ -53,6 +60,6 @@
   "repelStrength": 13.0729166666667,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.7514342322277747,
+  "scale": 0.7514342322277797,
   "close": true
 }
