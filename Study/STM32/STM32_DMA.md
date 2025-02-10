@@ -1,7 +1,7 @@
 - [MCU](MCU.md) 내부 메모리와 [MCU](MCU/md)에 연결되는 주변 장치들 사이에 core의 간섭 없이 데이터를 전송
 - DMA Controller는 독립적으로 구성 가능한 채널을 보유
-- 채널별로 우선 순위와 설정 가능한 HW가 정해져 있음
-
+- 채널 별로 우선 순위와 설정 가능한 HW가 정해져 있음
+- GPIO초기화 다음으로 DMA를 초기화하여야 함. (다른 peripheral보다 우선 초기화)
 ##### Channel
 - 각 channel은 전용 Hardware DMA Request에 연결
 - software trigger 기능을 제공
@@ -64,11 +64,11 @@ channel의 우선 순위 설정
 10 : 32bit (Word)
 11 : X
 ##### Bit 7 : MINC
-메모리 증가 모드 : 전송할 때 만다 주소 자동 증가
+메모리 증가 모드 : 전송할 때 마다 주소 자동 증가
 0 : disable
 1 : enable
 ##### Bit 6 : PINC
-주변 장치 증가 모드 : 전송할 때 만다 주소 자동 증가
+주변 장치 증가 모드 : 전송할 때 마다 주소 자동 증가
 0 : disable
 1 : enable
 ##### Bit 5 : CIRC
