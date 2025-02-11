@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STM32/STM32_DMA.md",
+                "file": "Motor/FOC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STM32_DMA"
+              "title": "FOC"
             }
           }
         ],
@@ -196,6 +196,16 @@
   },
   "active": "2dbb11ebbdc9fe59",
   "lastOpenFiles": [
+    "Motor/Park_Transform.md",
+    "Motor/Clarke_Transform.md",
+    "Motor/PILL.md",
+    "Motor/CORDIC.md",
+    "Welcome.md",
+    "Motor/Park Transform.md",
+    "STM32/MCU.md",
+    "STM32/image/Processor.png",
+    "Car/ASIL.md",
+    "Communicate/Baud_Rate.md",
     "STM32/STM32_UART.md",
     "STM32/STM32_DMA.md",
     "STM32/image/DMA_CMARx.png",
@@ -203,7 +213,6 @@
     "STM32/image/DMA_CNDTRx.png",
     "STM32/image/DMA_CCRx.png",
     "STM32/image",
-    "STM32/MCU.md",
     "임시파일/C++Work/prj4/obj/Debug/main.o",
     "임시파일/C++Work/prj4/bin/Debug/prj4.exe",
     "임시파일/C++Work/prj4/obj/Debug",
@@ -219,27 +228,19 @@
     "임시파일/scoppy/vmware_35.png",
     "임시파일/scoppy/vmware_34.png",
     "임시파일/scoppy/vmware_33.png",
-    "임시파일/scoppy/vmware_32.png",
     "Motor/Reluctance Torque.md",
     "Motor/SVPWM.md",
     "Motor/SPWM.md",
     "Motor/Six-Step Control.md",
-    "Motor/Park Transform.md",
     "Motor/MTPA.md",
     "Motor/FOC.md",
     "Motor/Flux Weakness Control.md",
     "Motor/DPWM.md",
     "Motor/Electro Magnetic Torque.md",
-    "Motor/Clarke Transform.md",
     "Language/C샵.md",
     "HW/차동_모드.md",
     "HW/EME.md",
     "HW/CANFD_PCB_설계 가이드.md",
-    "HW/LPF.md",
-    "Communicate/Baud_Rate.md",
-    "Communicate/Bit_Rate.md",
-    "Project/Scoppy_Hardware/Scoppy.md",
-    "Project/B-G431B-ESC1_Project/B-G431B-ESC1_Project.md",
-    "HW/EEPROM.md"
+    "HW/LPF.md"
   ]
 }
