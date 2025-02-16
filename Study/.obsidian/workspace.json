@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/SOLID.md",
+                "file": "DataSheet/Sensor/Encoder/TLE5012B/TLE5012B.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SOLID"
+              "title": "TLE5012B"
             }
           }
         ]
@@ -167,9 +167,9 @@
   },
   "active": "6f4c73692b415ad0",
   "lastOpenFiles": [
+    "Language/SOLID.md",
     "Language/구조체.md",
     "Language/객체_지향.md",
-    "Language/SOLID.md",
     "DataSheet/MCU/ST/B-G431B-ESC1/B-G431B-ESC1.md",
     "Excalidraw/Drawing 2025-02-16 20.56.53.excalidraw.md",
     "Excalidraw",
