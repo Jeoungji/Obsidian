@@ -2,12 +2,9 @@
 
 - [BLDC](BLDC.md) [FOC](FOC.md) [Actuator](Actuator.md) Project
 # 데이터 시트
-#### STM32G474CBT6
-[[MCU]]
+[MCU](MCU.md) : [STM32G474CBT6](STM32G474CBT6.md)
+[Encoder](Encoder.md) : [TLE5012B](TLE5012B.md)
 
-#### TLE5012BE1000
-[[Encoder]]
-![Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN](DataSheet/Sensor/Encoder/Infineon-TLE5012B_Exxxx-DataSheet-v02_01-EN.pdf)
 
 
 # 하드웨어

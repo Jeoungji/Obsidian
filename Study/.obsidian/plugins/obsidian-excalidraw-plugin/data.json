@@ -100,7 +100,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.7.5",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.8.0",
     "libraryItems": []
   },
   "imageElementNotice": true,
@@ -116,6 +116,7 @@
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",
+  "latexPreambleLocation": "preamble.sty",
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
   "pinnedScripts": [],
@@ -786,7 +787,6 @@
     }
   ],
   "showSplashscreen": true,
-  "latexPreambleLocation": "preamble.sty",
   "pdfSettings": {
     "pageSize": "A4",
     "pageOrientation": "portrait",
