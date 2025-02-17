@@ -602,3 +602,8 @@ end() : 마지막 주소
 - 공간이 부족하면 자동으로 다른 공간을 할당 후 딥카피
 - capacity : 할당 받은 공간
 ## Algorithms
+
+
+
+추상 클래스 : virtual이 있는데 아닌 것도 있음, 코드 재사용, 공통 변수가 있을 수 도
+interface : 모두 virtual 함수, I로 시작하도록 규약(ex) class IAnimal)
